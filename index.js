@@ -30,9 +30,10 @@ const writeFileAsync = util.promisify(fs.writeFile);
         message: "How do you use your program?",
     },
     {
-        type: "input",
+        type: "list",
         name: "license",
         message: "Select a license type:",
+        choices: [ "MIT", "Apache", "The Unlicense"],
     },
     {
         type: "input",

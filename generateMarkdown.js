@@ -18,13 +18,14 @@ function generateMarkdown(data) {
   ## Installation
 
   ${data.installation}
-
+  
   ## Usage
-
+ 
   ${data.usage}
 
   ## License
 
+  ${data.license}
   
   ## Contributing
 
@@ -37,7 +38,7 @@ function generateMarkdown(data) {
   ## Questions
 
   ${data.questions}
-
+  
   [Github profile](https://github.com/${data.github})
   Email address: ${data.email}
 

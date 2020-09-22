@@ -33,7 +33,6 @@ const writeFileAsync = util.promisify(fs.writeFile);
         type: "input",
         name: "license",
         message: "Select a license type:",
-        Choices: "MIT License \n GNU GPLv3 \n GNU AGPLv3 \n Mozilla Public License 2.0 \n Apache License 2.0 \n Boost Software License \n The Unlicense",
     },
     {
         type: "input",
@@ -57,7 +56,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
 init()
 // function to write README file
     .then(function(data) {
-        generate(data);
+       const md = generate(data);
 
         return writeFileAsync("readMe.md", md);
     })
@@ -71,7 +70,8 @@ init()
 
 // function to initialize program
 //function init() {
-
 //}
+
+//MIT License \n GNU GPLv3 \n GNU AGPLv3 \n Mozilla Public License 2.0 \n Apache License 2.0 \n Boost Software License \n The Unlicense
 
 

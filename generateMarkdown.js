@@ -25,6 +25,7 @@ function generateMarkdown(data) {
 
   ## License
 
+  
   ## Contributing
 
   ${data.contributing}

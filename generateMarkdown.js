@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   ## License
 
   ${data.license}
-  
+
   ## Contributing
 
   ${data.contributing}
@@ -39,10 +39,11 @@ function generateMarkdown(data) {
 
   ${data.questions}
   
-  [Github profile](https://github.com/${data.github})
+  [Github profile](https://github.com/${data.github}) \n
   Email address: ${data.email}
 
 `;
-}
+
+};
 
 module.exports = generateMarkdown;

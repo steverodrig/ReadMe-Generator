@@ -1,8 +1,8 @@
-# gore
+# read
 
   ## Description
 
-  greed
+  read
 
   ## Table of Contents
 
@@ -15,27 +15,29 @@
 
   ## Installation
 
-  brood
+  read
   
   ## Usage
  
-  bored
+  read
 
   ## License
 
-  MIT
+  GNU AGPLv3
+
   ## Contributing
 
-  pee
+  read
 
   ## Tests
 
-  poo
+  read
 
   ## Questions
 
-  poop
+  read
   
-  [Github profile](https://github.com/peep)
-  Email address: meep
+  [Github profile](https://github.com/readjfkdf) 
+
+  Email address: readfkdjfkfjsdkfjkdslfjdkgjkl
 

@@ -1,6 +1,6 @@
 var fs = require ("fs");
 var inquirer = require ("inquirer");
-var path = require ("path");
+var shields = require ("shields");
 const generate = require ("./generateMarkdown");  
 const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -33,7 +33,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
         type: "list",
         name: "license",
         message: "Select a license type:",
-        choices: [ "MIT", "Apache", "The Unlicense"],
+        choices: [ "The MIT License", "Apache", "The Unlicense", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "Boost Software License"],
     },
     {
         type: "input",

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2",
+    "shields": "^2.1.0",
     "util": "^0.12.3"
   },
   "repository": {

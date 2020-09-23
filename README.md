@@ -1,5 +1,7 @@
 # read
 
+  https://img.shields.io/badge/license-MIT-brightgreen
+
   ## Description
 
   read
@@ -8,10 +10,10 @@
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [License](#license)
 
   ## Installation
 
@@ -20,10 +22,6 @@
   ## Usage
  
   read
-
-  ## License
-
-  GNU AGPLv3
 
   ## Contributing
 
@@ -37,7 +35,12 @@
 
   read
   
-  [Github profile](https://github.com/readjfkdf) 
+  [Github profile](https://github.com/er) 
 
-  Email address: readfkdjfkfjsdkfjkdslfjdkgjkl
+  Email address: read
+
+  ## License
+
+  Licensed under MIT.
+
 

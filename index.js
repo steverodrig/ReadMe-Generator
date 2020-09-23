@@ -33,7 +33,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
         type: "list",
         name: "license",
         message: "Select a license type:",
-        choices: [ "The MIT License", "Apache", "The Unlicense", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "Boost Software License"],
+        choices: [ "MIT", "Apache", "The Unlicense", "GNU GPLv3", "GNU AGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "Boost Software License"],
     },
     {
         type: "input",

@@ -1,6 +1,14 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+
+  // Generates badge based on prompt input
+let badge = `https://img.shields.io/badge/license-${data.license}-brightgreen`;
+badge = encodeURI(badge);
+
+
   return `# ${data.title}
+
+  ${badge}
 
   ## Description
 
@@ -10,10 +18,10 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
+  * [License](#license)
 
   ## Installation
 
@@ -22,10 +30,6 @@ function generateMarkdown(data) {
   ## Usage
  
   ${data.usage}
-
-  ## License
-
-  ${data.license}
 
   ## Contributing
 
@@ -41,6 +45,11 @@ function generateMarkdown(data) {
   
   [Github profile](https://github.com/${data.github}) \n
   Email address: ${data.email}
+
+  ## License
+
+  Licensed under ${data.license}.
+
 
 `;
 

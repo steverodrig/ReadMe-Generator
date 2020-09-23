@@ -1,10 +1,10 @@
-# read
+# d
 
-  https://img.shields.io/badge/license-MIT-brightgreen
+  <img src =https://img.shields.io/badge/license-Boost%201.0-brightgreen alt = "license badge">
 
   ## Description
 
-  read
+  d
 
   ## Table of Contents
 
@@ -17,30 +17,30 @@
 
   ## Installation
 
-  read
+  d
   
   ## Usage
  
-  read
+  d
 
   ## Contributing
 
-  read
+  	f
 
   ## Tests
 
-  read
+  f
 
   ## Questions
 
-  read
+  f
   
-  [Github profile](https://github.com/er) 
+  [Github profile](https://github.com/f) 
 
-  Email address: read
+  Email address: f
 
   ## License
 
-  Licensed under MIT.
+  Licensed under Boost 1.0.
 
 

@@ -49,6 +49,8 @@ return `# ${data.title}
 
   Licensed under ${data.license}.
 
+  ## Links
+
 
 `;
 

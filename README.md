@@ -4,7 +4,7 @@
 
   ## Description
 
-  The goal of this project is to provide as self generating readme markdown file. It will aumatically give a document structure and will autopopulate 8 fields based on answers you provide to prompted questions.  If you wish to leave all answers blank it will still provide you with a bare bones structure.
+  The goal of this project is to provide as self generating readme markdown file. It will automatically give a readMe markdown document structure and will auto-populate 8 fields based on answers you provide to prompted questions.  If you wish to leave all answers blank it will still provide you with a bare bones structure.
 
   ## Table of Contents
 
@@ -17,7 +17,7 @@
 
   ## Installation
 
-  Download all accompanying files from github to the same folder and run node index.js from the command line.
+  Download all accompanying files from github to the same folder and run npm init to download necessary packages.
   
   ## Usage
  

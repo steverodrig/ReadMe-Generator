@@ -40,10 +40,10 @@ return `# ${data.title}
 
   ## Questions
 
-  ${data.questions}
+  Contact me with any questions or concerns at the email link below.
   
   [Github profile](https://github.com/${data.github}) \n
-  Email address: ${data.email}
+  <a href = "mailto: ${data.email}">Send Email</a>
 
   ## License
 

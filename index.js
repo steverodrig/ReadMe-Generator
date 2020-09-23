@@ -47,11 +47,6 @@ const writeFileAsync = util.promisify(fs.writeFile);
     },
     {
         type: "input",
-        name: "questions",
-        message: "How can you be reached with questions?",
-    },
-    {
-        type: "input",
         name: "github",
         message: "Enter your Github user name."
     },
